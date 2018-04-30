@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    {%  for a in all_movies  %}
+    <li>
+        <a href="/movie1/{{ a.id }}/">{{ a.actor }}</a>
+    </li>
+    {% endfor %}
+</ul>
+</body>
+</html>
